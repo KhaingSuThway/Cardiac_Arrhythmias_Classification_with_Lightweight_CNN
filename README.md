@@ -4,7 +4,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Acknowledgment]_(#Acknowledgment)
+- [Acknowledgment](#acknowledgment)
 - [Features](#features)
 - [Requirements](#requirements)
 - [Data Source](#data-source)
