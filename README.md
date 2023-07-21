@@ -1,6 +1,7 @@
 # Cardiac Arrhythmias (AF,NSR,PAC,PVC) Classification with lightweight CNN
 
-[Optional: Repository Description]
+You can find the paper at this link:
+[Cardiac Arrhythmia Detection Paper](https://ieeexplore.ieee.org/abstract/document/9894861)
 
 ## Table of Contents
 - [Introduction](#introduction)
