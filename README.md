@@ -6,7 +6,6 @@ If you find our research helpful, we kindly request you to cite our paper
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Acknowledgment](#acknowledgment)
 - [Features](#features)
 - [Requirements](#requirements)
 - [Data Source](#data-source)
@@ -25,10 +24,6 @@ Picture this: 30-second ECG interval segments as our secret weapon for classific
 Our study has got a heart of gold. We're here to make a real difference for those living in rural areas, where access to cardiology specialists and monitoring equipment is limited. With our lightweight neural network and portable ECG access, detecting abnormal heart rhythms becomes a breeze - even for COVID-19 patients requiring constant monitoring. The future of healthcare is looking brighter already! ✨🏥Early arrhythmia detection means better treatment outcomes and enhanced options for doctors. We're talking about a whole new level of patient care and medical research advancement! 🌟🏆
 
 Join us on this epic journey as we revolutionize arrhythmia detection using cutting-edge technology. Our impact is going to be huge, especially for underserved communities lacking advanced healthcare. We're all about making lives better and leaving no one behind. Let's embark on this exciting adventure together! 🤝🌍
-
-## Acknowledgment
-
-We extend our heartfelt gratitude to the Faculty of Electrical Engineering Department and the Research Council of Biomedical Engineering Program at Chulalongkorn University for their invaluable support and collaboration in this research scholarship. Their contribution has been instrumental in making this study a reality. Thank you for being an essential part of our journey to revolutionize cardiac arrhythmia detection! 🙏🌟
 
 ## Features
 
@@ -92,6 +87,6 @@ Once we've got our pristine signals, it's time for data transformation. It's all
 
 ## Acknowledgments
 
-[Optionally, you can include an acknowledgments section to credit any external libraries, contributors, or sources that have been instrumental in your project.]
+We extend our heartfelt gratitude to the Faculty of Electrical Engineering Department and the Research Council of Biomedical Engineering Program at Chulalongkorn University for their invaluable support and collaboration in this research scholarship. Their contribution has been instrumental in making this study a reality. Thank you for being an essential part of our journey to revolutionize cardiac arrhythmia detection! 🙏🌟
 
 
