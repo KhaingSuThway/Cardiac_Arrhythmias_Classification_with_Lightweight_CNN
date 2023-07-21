@@ -1,0 +1,6 @@
+os
+wfdb
+numpy
+pandas
+tensorflow
+mathplotlib
