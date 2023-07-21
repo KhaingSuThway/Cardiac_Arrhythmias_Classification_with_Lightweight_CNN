@@ -4,6 +4,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Acknowledgment]_(#Acknowledgment)
 - [Features](#features)
 - [Requirements](#requirements)
 - [Data Source](#data-source)
@@ -22,6 +23,10 @@ Picture this: 30-second ECG interval segments as our secret weapon for classific
 Our study has got a heart of gold. We're here to make a real difference for those living in rural areas, where access to cardiology specialists and monitoring equipment is limited. With our lightweight neural network and portable ECG access, detecting abnormal heart rhythms becomes a breeze - even for COVID-19 patients requiring constant monitoring. The future of healthcare is looking brighter already! ✨🏥Early arrhythmia detection means better treatment outcomes and enhanced options for doctors. We're talking about a whole new level of patient care and medical research advancement! 🌟🏆
 
 Join us on this epic journey as we revolutionize arrhythmia detection using cutting-edge technology. Our impact is going to be huge, especially for underserved communities lacking advanced healthcare. We're all about making lives better and leaving no one behind. Let's embark on this exciting adventure together! 🤝🌍
+
+## Acknowledgment
+
+We extend our heartfelt gratitude to the Faculty of Electrical Engineering Department and the Research Council of Biomedical Engineering Program at Chulalongkorn University for their invaluable support and collaboration in this research scholarship. Their contribution has been instrumental in making this study a reality. Thank you for being an essential part of our journey to revolutionize cardiac arrhythmia detection! 🙏🌟
 
 ## Features
 
@@ -62,7 +67,8 @@ With this goldmine of annotated data, we're all set to revolutionize cardiac arr
 
 ## Preprocessing
 
-[Explain the steps involved in reading the ECG records and how they are converted to 30-second records for each of the four arrhythmias. Include the criteria used for the conversion.]
+In this cutting-edge study, we're taking raw ECG signals and turning them into gold. How? Well, it all starts with noise filtering. Those pesky interferences like powerline interferences, baseline wanders, and electromyographic noises are no match for us. We use a 5th order high-pass Butterworth filter with a cutoff frequency of 0.5 Hz to kick baseline wander to the curb. And the 60 Hz powerline interference? We say "bye-bye" to that with a band stop filter centered at 60 Hz. Clean signals are the way to go! 🎧🎚️
+Once we've got our pristine signals, it's time for data transformation. It's all about those QRS complexes and R-peaks, you know! From there, we create magic - individual beats within the 30-second segment are plotted on a clean white background. Think of it as an artistic canvas for heartbeats! 🎨💓 Now, it's time for the grand finale - overlaying those plotted beat images to form a single synchronized beat image. With this image transformation, the difference between arrhythmias and NSR becomes crystal clear. Regular NSR beats show noticeable P, Q, R, S, and T waves, all looking like twins. So, when we see a 30-second record with all beats synced up beautifully, we know it's free from any arrhythmias. It's like a superpower for classification! 🦸‍♂️💥
 
 ## Training
 
