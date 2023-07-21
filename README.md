@@ -45,11 +45,17 @@ This research is about making a real impact on medical care, especially for thos
 
 ## Requirements
 
-[List the software, libraries, and dependencies required to run your programs. Include version numbers if applicable.]
+The 'requirements.txt' file lists all the essential dependencies needed to run our project smoothly. With just a simple command, you'll be all set to explore the fascinating world of cardiac arrhythmia detection. No more hassle of figuring out which libraries to install or worrying about compatibility issues. 
 
-## Usage
+## Long-Term Atrial Fibrillation (LTAF) database
 
-[Explain how to use your programs and provide examples of command-line usage or code snippets.]
+It's like a treasure trove of ECG data regarding to Atrial Fibrillation, collected from physionet.org, with 84 records of around 24-hour long ECG recordings, all with a sampling frequency of 128 Hz. Serious data power, right? 📊🔥
+And that's not all - the icing on the cake is that each of these records comes with annotations for beat and rhythm type.These labels are pure gold, making our algorithm development and testing a breeze. Let's toast to smooth data analysis! 🎉🥂
+Big shoutout to the brilliant minds at PhysioNet for hooking us up with their user-friendly wfdb Python library. It's like a magic wand for accessing, analyzing, and manipulating physiological signals. We're crushing it! 🪄💻
+
+Now, let's dive into the juicy details. The LTAF database treats us to five types of beat annotations: N for Normal Sinus Rhythm, A for premature atrial contraction, V for premature ventricular contraction, Q for unknown beat, and ' " ' for missing beat. On the rhythm side, we've got nine types of annotations to play with. For this one, we're zooming in on the heart-stealers - atrial fibrillation and normal sinus rhythm for rhythm-based annotation, and normal beat, premature atrial contraction, and premature ventricular contraction for beat-wise annotation. Let's feel that rhythm! 🎶💓
+
+With this goldmine of annotated data, we're all set to revolutionize cardiac arrhythmia detection! Get ready for some incredible discoveries as we dive deep into the world of heart rhythms. Stay tuned for more thrilling updates, and let's ace the game of arrhythmia analysis together! 💪🔍
 
 ## Data Source
 
