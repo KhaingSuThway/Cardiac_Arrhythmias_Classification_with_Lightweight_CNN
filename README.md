@@ -59,23 +59,6 @@ PhysioNet for hooking us up with their user-friendly wfdb Python library. The LT
 We're taking raw ECG signals and turning them into something more useable. It all starts with noise filtering. Those pesky interferences like powerline interferences, baseline wanders, and electromyographic noises are no match for us. We use a 5th order high-pass Butterworth filter with a cutoff frequency of 0.5 Hz to kick baseline wander to the curb. And the 60 Hz powerline interference? We say "bye-bye" to that with a band stop filter centered at 60 Hz.
 Once we've got our pristine signals, it's time for data transformation. From the detected QRS complexes, we create individual beats within the 30-second segment are plotted on a clean white background, overlaying those plotted beat images to form a single synchronized beat image. With this image transformation, the difference between arrhythmias and NSR becomes crystal clear. Regular NSR beats show noticeable P, Q, R, S, and T waves.
 
-## Training
-
-[Describe the process of transforming the values from the previous step into ECG beat images and how these images are used to train the lightweight deep learning neural network.]
-
-## Results
-
-[If you have achieved any significant results or milestones, describe them here. Include any performance metrics or visualizations to demonstrate the effectiveness of your approach.]
-
-## Contributing
-
-[Explain how others can contribute to your project. Provide guidelines for submitting issues, feature requests, and pull requests.]
-
-## License
-
-[Specify the license under which your project is distributed. Choose an open-source license that aligns with your preferences.]
-
-[Add any additional sections that you think are necessary or relevant to your project.]
 
 ## Acknowledgments
 
