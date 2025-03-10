@@ -10,10 +10,7 @@ If you find our research helpful, we kindly request you to cite our paper
 - [Requirements](#requirements)
 - [Data Source](#data-source)
 - [Preprocessing](#preprocessing)
-- [Training](#training)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
